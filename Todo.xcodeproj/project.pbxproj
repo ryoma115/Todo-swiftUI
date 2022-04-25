@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E21E5CD281648B7005322B4 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E21E5CC281648B7005322B4 /* CheckBox.swift */; };
 		5E2DD47728163EFD00ADF112 /* TodoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2DD47628163EFD00ADF112 /* TodoApp.swift */; };
 		5E2DD47928163EFD00ADF112 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2DD47828163EFD00ADF112 /* ContentView.swift */; };
 		5E2DD47B28163F0000ADF112 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E2DD47A28163F0000ADF112 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5E21E5CC281648B7005322B4 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 		5E2DD47328163EFD00ADF112 /* Todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E2DD47628163EFD00ADF112 /* TodoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoApp.swift; sourceTree = "<group>"; };
 		5E2DD47828163EFD00ADF112 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				5E2DD47628163EFD00ADF112 /* TodoApp.swift */,
 				5E2DD47828163EFD00ADF112 /* ContentView.swift */,
 				5E2DD4892816407700ADF112 /* CategoryImage.swift */,
+				5E21E5CC281648B7005322B4 /* CheckBox.swift */,
 				5E2DD47A28163F0000ADF112 /* Assets.xcassets */,
 				5E2DD47F28163F0000ADF112 /* Persistence.swift */,
 				5E2DD48128163F0000ADF112 /* Todo.xcdatamodeld */,
@@ -148,6 +151,7 @@
 			files = (
 				5E2DD48028163F0000ADF112 /* Persistence.swift in Sources */,
 				5E2DD47928163EFD00ADF112 /* ContentView.swift in Sources */,
+				5E21E5CD281648B7005322B4 /* CheckBox.swift in Sources */,
 				5E2DD47728163EFD00ADF112 /* TodoApp.swift in Sources */,
 				5E2DD48A2816407700ADF112 /* CategoryImage.swift in Sources */,
 				5E2DD48328163F0000ADF112 /* Todo.xcdatamodeld in Sources */,
