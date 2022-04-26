@@ -18,13 +18,12 @@ struct CheckBox<Label>: View where Label: View{
     }
     
     var body: some View {
-        HStack {
-            Image(systemName: checked ? "checkmark.circle" : "circle")
-                .onTapGesture {
-                    self.checked.toggle()
-                
-            }
-            label()
+            HStack {
+                Image(systemName: checked ? "checkmark.circle" : "circle")
+                    .onTapGesture {
+                        self.checked.toggle()
+                }
+                label()
         }
     }
 }
@@ -32,10 +31,8 @@ struct CheckBox<Label>: View where Label: View{
 struct CheckBox_Previews: PreviewProvider {
     static var previews: some View {
         VStack {
-            CheckBox(checked: .constant(false)) {
+            CheckBox(checked: .constant(true)) {
                 Image(systemName: "hand.thumbsup")
-                Text("牛乳を買う")
-                Text("牛乳を買う")
             }
         }
     }
